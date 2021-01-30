@@ -1,0 +1,9 @@
+This will generate a number from 0.0 to 1.0, inclusive.
+
+float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+This will generate a number from 0.0 to some arbitrary float, X:
+
+float r2 = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/X));
+This will generate a number from some arbitrary LO to some arbitrary HI:
+
+float r3 = LO + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(HI-LO)));

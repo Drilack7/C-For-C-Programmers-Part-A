@@ -1,0 +1,3 @@
+density = number of edges/total number of possible edges
+In directed graph: total number of possible edges is |v|*|v-1|,
+In undirected graph: total number of possible edges is |v|*|v-1|/2.

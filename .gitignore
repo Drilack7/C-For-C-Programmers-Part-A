@@ -1,0 +1,5 @@
+*.exe
+*.o
+/trash
+/rest
+/last-week(test)
